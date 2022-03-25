@@ -1,0 +1,72 @@
+body {
+    background-color: aqua;
+}
+
+div.poster{
+background-color: rgb(0, 0, 0);
+width: 75%;
+}
+
+div.text{
+font-size: 120px;
+font-family:'Courier New', Courier, monospace;
+text-align: center;
+color: aquamarine;
+transition: 0.5s;
+}
+
+/* rule 1 */
+
+div.text.one{
+font-size: 30px;
+background-color: chartreuse;
+
+}
+
+div.text.two{
+    font-size: 60px;
+    
+}
+
+div.text.three{
+    font-size: 100px;
+}
+
+/* rule 2 */
+
+div.text.a{
+color: chartreuse;
+width: 0%;
+
+}
+
+div.text.b{
+    color:fuchsia;
+    
+}
+
+div.text.c{
+        color: indigo;
+}
+
+/* rule 3 */
+
+div.text.x{
+ font-style: italic;
+}
+
+div.text.y{
+   font-style: normal;
+}
+
+div.text.z{
+   font-weight: bold;
+}
+    
+
+div.small{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color:deeppink;
+    }
