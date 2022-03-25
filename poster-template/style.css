@@ -1,0 +1,69 @@
+body {
+    background-color: aqua;
+}
+
+div.poster{
+background-color: blueviolet;
+width: 75%;
+}
+
+div.text{
+font-size: 120px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: aquamarine;
+transition: 0.5s;
+}
+
+/* rule 1 */
+
+div.text.one{
+font-size: 30px;
+
+}
+
+div.text.two{
+    font-size: 60px;
+}
+
+div.text.three{
+    font-size: 160px;
+}
+
+/* rule 2 */
+
+div.text.a{
+color: chartreuse;
+
+}
+
+div.text.b{
+    color:fuchsia;
+    
+}
+
+div.text.c{
+        color: indigo;
+}
+
+/* rule 3 */
+
+div.text.x{
+ font-style: italic;
+}
+
+div.text.y{
+   font-style: normal;
+}
+
+div.text.z{
+   font-weight: bold;
+}
+    
+
+div.small{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:deeppink;
+    }
