@@ -1,0 +1,107 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(31, 6, 52), rgb(87, 15, 240));
+}
+
+
+
+@font-face{
+    font-family: 'neo';
+    src:url('fonts/Arkipelago.otf')
+    }
+
+div.text{
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: hotpink;
+transition: 0.5s;
+}
+
+/* rule 1 */
+
+div.text.one{
+font-size: 30px;
+transform: rotateX(180deg);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+height: 10%;
+width: 90%;
+
+}
+
+div.text.two{
+    font-size: 60px;
+    transform: rotateY(180deg);
+    height: 15%;
+    width: 40%;
+
+}
+
+div.text.three{
+    font-size: 80px;
+    height: 15%;
+    
+}
+
+/* rule 2 */
+
+div.text.a{
+color: cyan;
+
+}
+
+div.text.b{
+    color: rgb(140, 0, 255);
+    
+}
+
+div.text.c{
+        color: rgb(255, 4, 221);
+}
+
+/* rule 3 */
+
+div.text.x{
+ font-style: italic;
+ 
+}
+
+div.text.y{
+   font-style: normal;
+}
+
+div.text.z{
+   font-weight: bold;
+}
+    
+
+div.small{
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    }
+
+    .neonText {
+        color: #fff;
+        text-shadow:
+          0 0 7px rgb(140, 0, 255),
+          0 0 10px rgb(140, 0, 255),
+          0 0 21px rgb(140, 0, 255),
+          0 0 42px rgb(140, 0, 255),
+          0 0 82px rgb(140, 0, 255),
+          0 0 92px rgb(140, 0, 255),
+          0 0 151px rgb(140, 0, 255);
+      }
+
+div.heading{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'neo';
+    font-weight: bold;
+}
+
+.grad {
+    background-image: linear-gradient(to bottom right, red, yellow);
+  }
