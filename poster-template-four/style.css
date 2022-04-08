@@ -61,6 +61,7 @@ flex-wrap: wrap;
 div.col{
 outline: 2px solid lime;
 width: 100%;
+
 }
 
 div.footer{
@@ -142,8 +143,9 @@ div.text.two{
 
 div.text.three{
     color: greenyellow;
-    font-size: 70px;
-    text-align: left;
+    font-size: 100px;
+    text-align: left;   
+  transform:translateY(500px)
 }
 
 /* rule 2 */
