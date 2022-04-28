@@ -2,15 +2,24 @@ body {
     background-color: black;
 }
 
+
+
 div.poster{
 background-color: black;
 width: 100%;
-/* background-image: url('swirl.jpg');
+height: 100%;
+ /* background-image: url('swirl.jpg'); */
 background-repeat: no-repeat;
 background-size: 1000px;
-background-position: center center;*/
+background-position: center center;
+transition: 0.5s;
 } 
 
+@font-face{
+    font-family: 'Trispace';
+    src:url('fonts/Trispace-Thin.otf')
+    }
+    
 .container{
     display:flex;
     flex-wrap: wrap;
@@ -21,15 +30,15 @@ background-color:
 }
 
 .w1-2{
-    width: 50%;
+    width: 100%;
 }
 
 
 div.text{
-font-size: 30px;
-font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+font-family:'Trispace';
 text-align: center;
-color: rgb(20, 73, 120);
+color: lightblue;
 transition: 0.5s;
 }
 
@@ -37,6 +46,7 @@ transition: 0.5s;
 
 div.text.one{
 font-size: 40px;
+background-color: aliceblue;
 
 }
 
@@ -52,40 +62,37 @@ div.text.three{
 
 div.text.a{
 
-background-size: 400px;
+
 background-position: center center;
 color: transparent;
 
 }
 
 div.text.b{
-  background-image: linear-gradient(rgb(18, 18, 18), black);
+  background-image: 
     
 }
 
 div.text.c{
     background-image: url('swirl.jpg');
     background-repeat: repeat;
-    background-size: 100px;
+    background-size: 400px;
+    background-position: center center;
+  
+}
+
+div.text.d{
+    background-image: url('swirl.jpg');
+    background-repeat: repeat;
+    background-size: 200px;
     background-position: center center;
     color: transparent;     
 }
 
-/* rule 3 */
-
-div.text.x{
- 
-}
-
-div.text.y{
-   
-}
-
-div.text.z{
-  
-}
-    
-
 div.small{
-  
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color:black;
+    background-color: aliceblue;    
     }

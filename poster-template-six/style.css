@@ -22,12 +22,14 @@ color: hotpink;
 transition: 0.5s;
 }
 
+
+
+
 /* rule 1 */
 
 div.text.one{
 font-size: 80px;
 background-color: #fff;
-transform: rotateX(180deg);
 font-family: body;
 height: 10%;
 width: 100%;
@@ -36,7 +38,6 @@ width: 100%;
 
 div.text.two{
     font-size: 100px;
-    transform: rotateY(180deg);
     height: 15%;
     width: 40%;
 
@@ -45,6 +46,7 @@ div.text.two{
 div.text.three{
     font-size: 80px;
     height: 15%;
+        
     
 }
 
@@ -85,6 +87,8 @@ div.small{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 40px;
     text-align: center;
+    font-style: italic;
+    font-weight: bold;
     color: white;
     }
 
