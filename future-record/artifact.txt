@@ -1,0 +1,16 @@
+header x 
+    logo x 
+    nav x
+title x 
+    featuredimage x 
+    caption x
+about
+footnote x 
+    note title x
+    note desc x
+    note outgoing link x
+container x
+    item x
+        image x
+        paragraph x
+footer
