@@ -152,7 +152,7 @@ opacity: 1;
 
 div.item2{
 width: 50%;
-height: 400px;
+height: 50vh;
 font-size: 14px;
 }
 
@@ -168,7 +168,7 @@ div.item5{
 div.item3{
     font-size: 14px;
     width: 33.33%;
-    height: 400px;
+    height: 70vh;
     }
     
 
