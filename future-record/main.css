@@ -156,6 +156,15 @@ height: 400px;
 font-size: 14px;
 }
 
+div.item5{
+    width: 50%;
+    margin-left: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    height: 400px;
+    font-size: 14px;
+    }
+
 div.item3{
     font-size: 14px;
     width: 33.33%;
